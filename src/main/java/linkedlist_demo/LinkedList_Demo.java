@@ -11,6 +11,7 @@ public class LinkedList_Demo {
         linkedList.add("Bangladesh");
         linkedList.add("India");
         linkedList.add("Nepel");
+        linkedList.add(2,"Saudi Arabia"); //একটি element-কে কততম size-এ দেখানো হবে, তা নির্দিষ্ট করে দেওয়া যায়।।
 
         //'for each loop' use করে result দেখানো হয়েছে।।
         for (String country : linkedList) {
