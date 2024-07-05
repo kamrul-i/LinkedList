@@ -11,10 +11,12 @@ public class LinkedList_Demo {
         linkedList.add("Bangladesh");
         linkedList.add("India");
         linkedList.add("Nepel");
-        
+
+        //'for each loop' use করে result দেখানো হয়েছে।।
         for (String country : linkedList) {
             System.out.println(country);
         }
-        //'for each loop' use করে result দেখানো হয়েছে।।
+        System.out.println("Size of the Linked_List : " + linkedList.size());
+
     }
 }
